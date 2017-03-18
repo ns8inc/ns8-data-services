@@ -6,6 +6,16 @@
     "author": {
         "name": "NS8 Inc"
     },
+    "_npmUser": {
+        "email": "adam@rogassi.com",
+        "name": "adamrogas"
+    },
+    "scripts": {
+        "major": "npm version major -m\"update version to %s\" && git push && git push --tags",
+        "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
+        "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
+        "test": "echo 'ok - no tests"
+    },
     "main": "index.js",
     "contributors": [
         {
@@ -52,5 +62,5 @@
         "content",
         "optimization"
     ],
-    "license" : "MIT"
+    "license": "MIT"
 }
