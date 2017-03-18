@@ -1,66 +1,66 @@
 {
-    "name": "ns8-data-services",
-    "description": "Realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.",
-    "homepage": "https://www.ns8.com/data-services/",
-    "version": "1.0.0",
-    "author": {
-        "name": "NS8 Inc"
-    },
-    "_npmUser": {
-        "email": "adam@rogassi.com",
-        "name": "adamrogas"
-    },
-    "scripts": {
-        "major": "npm version major -m\"update version to %s\" && git push && git push --tags",
-        "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
-        "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
-        "test": "echo 'ok - no tests"
-    },
-    "main": "index.js",
-    "contributors": [
-        {
-            "name": "Phil Vizzaccaro",
-            "email": "phil@ns8.com"
-        }
-    ],
-    "engines": {
-        "node": ">=0.10"
-    },
-    "bugs": {
-        "url": "https://github.com/ns8inc/ns8-data-services/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ns8inc/ns8-data-services.git"
-    },
-    "keywords": [
-        "user",
-        "visitor",
-        "bot",
-        "fraud",
-        "detection",
-        "geolocation",
-        "demographic",
-        "search engine",
-        "keywords",
-        "search terms",
-        "analytics",
-        "browser",
-        "platform",
-        "device type",
-        "device",
-        "mobile",
-        "tablet",
-        "desktop",
-        "proxy",
-        "hidden",
-        "realtime",
-        "score",
-        "publisher",
-        "ad",
-        "advertiser",
-        "content",
-        "optimization"
-    ],
-    "license": "MIT"
+  "name": "ns8-data-services",
+  "description": "Realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.",
+  "homepage": "https://www.ns8.com/data-services/",
+  "version": "1.1.0",
+  "author": {
+    "name": "NS8 Inc"
+  },
+  "_npmUser": {
+    "email": "adam@rogassi.com",
+    "name": "adamrogas"
+  },
+  "scripts": {
+    "major": "npm version major -m\"update version to %s\" && git push && git push --tags",
+    "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
+    "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
+    "test": "echo 'ok - no tests"
+  },
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Phil Vizzaccaro",
+      "email": "phil@ns8.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/ns8inc/ns8-data-services/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ns8inc/ns8-data-services.git"
+  },
+  "keywords": [
+    "user",
+    "visitor",
+    "bot",
+    "fraud",
+    "detection",
+    "geolocation",
+    "demographic",
+    "search engine",
+    "keywords",
+    "search terms",
+    "analytics",
+    "browser",
+    "platform",
+    "device type",
+    "device",
+    "mobile",
+    "tablet",
+    "desktop",
+    "proxy",
+    "hidden",
+    "realtime",
+    "score",
+    "publisher",
+    "ad",
+    "advertiser",
+    "content",
+    "optimization"
+  ],
+  "license": "MIT"
 }
