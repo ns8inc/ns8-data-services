@@ -10,6 +10,7 @@
     "email": "adam@rogassi.com",
     "name": "adamrogas"
   },
+  "runkitExampleFilename": "runkit-example.js",
   "scripts": {
     "major": "npm version major -m\"update version to %s\" && git push && git push --tags",
     "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
