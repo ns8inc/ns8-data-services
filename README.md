@@ -1,6 +1,6 @@
 ![ns8-data-services](https://media.ns8.com/github/assets/images/ns8-data-serviced-log-DRK.png "ns8-data-services")
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![Downloads](http://img.shields.io/npm/dm/ns8-data-services.svg?style=flat-square)](https://npmjs.org/package/ns8-data-services)
 
 [ns8-data-services](https://www.ns8.com/data-services/) is a realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.  
 
