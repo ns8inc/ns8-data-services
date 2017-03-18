@@ -124,7 +124,7 @@ __Arguments__
 ```
 
 ## Endpoints
-We are creating global endpoints for this API.  The API is extremely fast, however we cannot control latency on the internet.  To address this, we support colocation or replication to your cloud provider's site.  Please [contact us](https://gator.io) to set this up.
+We are creating global endpoints for this API.  The API is extremely fast, however we cannot control latency on the internet.  To address this, we support colocation or replication to your cloud provider's site.  Please [contact us](https://www.ns8.com/data-services/) to set this up.
 
 ## Sample use cases
 - `Ads`	Do not display ads to invalid users. Keep your reputation as a publisher intact.
