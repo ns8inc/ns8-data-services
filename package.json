@@ -1,27 +1,27 @@
 {
-    "name": "gator-score",
+    "name": "ns8-data-services",
     "description": "Realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.",
-    "homepage": "gator.io",
+    "homepage": "https://www.ns8.com/data-services/",
     "version": "1.0.0",
     "author": {
-        "name": "GatorIO"
+        "name": "NS8 Inc"
     },
     "main": "index.js",
     "contributors": [
         {
             "name": "Phil Vizzaccaro",
-            "email": "phil@gator.io"
+            "email": "phil@ns8.com"
         }
     ],
     "engines": {
         "node": ">=0.10"
     },
     "bugs": {
-        "url": "https://github.com/GatorIO/gator-score/issues"
+        "url": "https://github.com/ns8inc/ns8-data-services/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GatorIO/gator-score.git"
+        "url": "https://github.com/ns8inc/ns8-data-services.git"
     },
     "keywords": [
         "user",
