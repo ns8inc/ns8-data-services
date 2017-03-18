@@ -161,3 +161,9 @@ SOFTWARE.
 ## Bugs
 
 See <https://github.com/ns8inc/ns8-data-services/issues>.
+
+
+[npm-image]: https://img.shields.io/npm/v/ns8-data-services.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/ns8-data-services
+[downloads-image]: http://img.shields.io/npm/dm/ns8-data-services.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/ns8-data-services
