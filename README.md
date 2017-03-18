@@ -1,5 +1,7 @@
 ![ns8-data-services](https://media.ns8.com/github/assets/images/ns8-data-serviced-log-DRK.png "ns8-data-services")
 
+[![NPM version][npm-image]][npm-url]
+
 [ns8-data-services](https://www.ns8.com/data-services/) is a realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.  
 
 A fraud score is a number from 0-1000 which indicates the likelyhood that the user is a bot.  The lower the score, the more likely the user is a bot.  A score less than 100 means it is very likely the user is a bot.
