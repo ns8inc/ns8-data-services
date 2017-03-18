@@ -119,7 +119,7 @@ __Arguments__
     },
     "browserVersion": "Safari",
     "browser": "Safari",
-    "status": "This result was delayed intentionally as part of the free version.  Create an account at www.gator.io for full speed access."
+    "status": "This result was delayed intentionally as part of the free version.  Create an account at https://www.ns8.com/data-services/ for full speed access."
 }
 ```
 
