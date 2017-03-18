@@ -1,10 +1,10 @@
-![gator-score](https://gator.io/images/logo-light-background.png "gator-score")
+![ns8-data-services](https://gator.io/images/logo-light-background.png "ns8-data-services")
 
-[gator-score](https://gator.io) is a realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.  
+[ns8-data-services](https://www.ns8.com/data-services/) is a realtime API to get a user's fraud score, geolocation, device, demographic, search and technology data based on an IP address, user agent and referrer.  
 
 A fraud score is a number from 0-1000 which indicates the likelyhood that the user is a bot.  The lower the score, the more likely the user is a bot.  A score less than 100 means it is very likely the user is a bot.
 
-We use various methods to determine the fraud score, see our [methodology](https://gator.io/how).
+We use various methods to determine the fraud score, see our [methodology](https://www.ns8.com/data-services/how/).
 
 In addition, the API returns all the detectable information on the user, like the device, geolocation, etc.  This data is aggregated and available for reporting for account holders.
 
@@ -18,7 +18,7 @@ There is a free version available that is rate-limited, so it should not be used
 ## Server side scoring in Node.js
 ```javascript
 
-var gator = require('gator-score');
+var gator = require('ns8-data-services');
 
 //  Example - within an express route
 app.get('/test', function (req, res) {
@@ -40,11 +40,11 @@ app.get('/test', function (req, res) {
     });
 });
 ```
-See full [documentation](https://gator.io/developer/scoring).
+See full [documentation](https://www.ns8.com/developer/scoring).
 
 # Installation
 
-    $ npm install gator-score
+    $ npm install ns8-data-services
 
 
 ## Methods
@@ -136,7 +136,7 @@ We are creating global endpoints for this API.  The API is extremely fast, howev
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2016 Phil Vizzaccaro
+Copyright (c) 2017 NS8, Phil Vizzaccaro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -158,4 +158,4 @@ SOFTWARE.
 
 ## Bugs
 
-See <https://github.com/gatorio/gator-score/issues>.
+See <https://github.com/ns8inc/ns8-data-services/issues>.
