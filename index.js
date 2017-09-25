@@ -37,7 +37,7 @@ module.exports = {
 
             //  default options
             var options = {
-                hostname: 'api.gator.io',   //  this can be changed to an endpoint geographically close to caller
+                hostname: 'api.ns8.com',   //  this can be changed to an endpoint geographically close to caller
                 port: 443,
                 path: path + query,
                 method: 'GET'
