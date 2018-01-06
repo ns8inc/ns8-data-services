@@ -20,7 +20,7 @@ There is a free version available that is rate-limited, so it should not be used
 ## Server side scoring in Node.js
 ```javascript
 
-var gator = require('ns8-data-services');
+var ns8ds = require('ns8-data-services');
 
 //  Example - within an express route
 app.get('/test', function (req, res) {
@@ -33,7 +33,7 @@ app.get('/test', function (req, res) {
         url: req.hostname
     };
 
-    gator.score(options, function(err, result) {
+    ns8ds.score(options, function(err, result) {
 
         if (!err && result && result.score < 100)   //  a score less the 100 is very likely a bot
             res.render('botContent');

@@ -1,5 +1,5 @@
 /*!
- * gator-score
+ * ns8 data service scoring function
  * MIT Licensed
  */
 
